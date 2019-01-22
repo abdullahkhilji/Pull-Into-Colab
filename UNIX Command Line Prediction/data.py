@@ -27,7 +27,7 @@ class Data():
 
     def __init__(self, dataset):
         self.dataset = dataset
-        self.folder = '/Users/divyansha/Documents/ML/OpenCv/Word-Prediction-with-RNN/data/gutenbergs ' + self.dataset
+        self.folder = '' + self.dataset
 
     def prepare(self, nvocab, seed=0, debug=False):
         """
